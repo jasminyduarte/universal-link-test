@@ -4,15 +4,15 @@
     "details": [
     {
       "appID": "7BFB52758N.br.com.oleconsignado.app",
-      "paths": ["/cliente/*"]
+      "paths": ["/cliente.html/*"]
     },
     {
       "appID": "7BFB52758N.br.com.oleconsignado.app-dev",
-      "paths": ["/cliente/*"]
+      "paths": ["/cliente.html/*"]
     },
     {
       "appID": "7BFB52758N.br.com.oleconsignado.app-hml",
-      "paths": ["/cliente/*"]
+      "paths": ["/cliente.html/*"]
     }
     ]
   }
