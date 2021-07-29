@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "7BFB52758N.br.com.oleconsignado.app",
+      "paths": ["/cliente/*"]
+    },
+    {
+      "appID": "7BFB52758N.br.com.oleconsignado.app-dev",
+      "paths": ["/cliente/*"]
+    },
+    {
+      "appID": "7BFB52758N.br.com.oleconsignado.app-hml",
+      "paths": ["/cliente/*"]
+    }
+    ]
+  }
+}
+
