@@ -1,20 +1,32 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
-    {
-      "appID": "7BFB52758N.br.com.oleconsignado.app",
-      "paths": ["/cliente.html/*"]
-    },
-    {
-      "appID": "7BFB52758N.br.com.oleconsignado.app-dev",
-      "paths": ["/cliente.html/*"]
-    },
-    {
-      "appID": "7BFB52758N.br.com.oleconsignado.app-hml",
-      "paths": ["/cliente.html/*"]
-    }
+      {
+        "appIDs": [
+          "7BFB52758N.br.com.oleconsignado.app",
+          "7BFB52758N.br.com.oleconsignado.app-dev",
+          "7BFB52758N.br.com.oleconsignado.app-hml"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+          },
+          {
+            "/": "/cliente/*",
+            "comment": "Matches any URL whose path starts with /cliente/"
+          },
+          {
+            "/": "/cliente/open-finance/*",
+            "comment": "Matches any URL whose path starts with /open-finance/"
+          },
+          {
+            "/": "/teste/*",
+            "comment": "Matches any URL whose path starts with /teste/"
+          }
+        ]
+      }
     ]
   }
 }
-
